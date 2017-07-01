@@ -5,12 +5,12 @@
     <parent>
         <artifactId>testcontainers-parent</artifactId>
         <groupId>org.testcontainers</groupId>
-        <version>1.2.1</version>
+        <version>1.3.1</version><!-- TESTCONTAINERS RELEASE VERSION -->
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mariadb</artifactId>
-    <version>1.2.1</version>
+    <version>0-SNAPSHOT</version>
 
     <name>TestContainers :: MariaDB</name>
     <description>
@@ -35,12 +35,12 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>testcontainers</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>jdbc</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
 
         <!-- Database driver for testing -->
