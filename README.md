@@ -1,4 +1,4 @@
-# TestContainers MariaDB Module
+# TestContainers MariaDB Module [![Build Status](https://travis-ci.org/testcontainers/testcontainers-java-module-mariadb.svg?branch=master)](https://travis-ci.org/testcontainers/testcontainers-java-module-mariadb)
 
 Testcontainers module for the MariaDB database.
 
