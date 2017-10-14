@@ -23,6 +23,25 @@ public class SomeTest {
         ... create a connection and run test as normal
 ```
 
+## Dependency information
+
+### Maven
+
+```
+<dependency>
+    <groupId>org.testcontainers</groupId>
+    <artifactId>mariadb</artifactId>
+    <version>1.4.3</version>
+</dependency>
+```
+
+### Gradle
+
+```
+compile group: 'org.testcontainers', name: 'mariadb', version: '1.4.3'
+```
+
+
 ## License
 
 See [LICENSE](LICENSE).
